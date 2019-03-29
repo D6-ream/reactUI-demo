@@ -18,7 +18,7 @@ export interface TestState {
   stateString: string,
 }
 
-class Test extends React.Component<TestProps, TestState> {
+export default class Test extends React.Component<TestProps, TestState> {
   static displayName = 'Test';
 
   constructor(props: TestProps) {
