@@ -1,19 +1,18 @@
-# util-demo
-a util demo
+# react-ui-demo
+a react component lib demo
 
 ## 介绍
-快速开始一个工具库的脚手架
+快速开始一个react组件库
 
 1. 支持自动版本升级 详见standard-version
 2. 支持TS
 3. 支持eslint
-4. 支持单元测试
-5. 支持debug
+4. 支持debug
 
 ## starter的使用
 down到本地
 ```
-git clone https://github.com/D6-ream/util-demo.git
+git clone https://github.com/D6-ream/reactUI-demo.git
 
 npm i
 ```
@@ -26,11 +25,6 @@ npm i
 - author
 - bugs
 - homepage
-
-单元测试
-```
-npm run test
-```
 
 发布
 ```
