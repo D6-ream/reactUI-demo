@@ -24,7 +24,7 @@ export default class Test extends React.Component<TestProps, TestState> {
   constructor(props: TestProps) {
     super(props);
     this.state = {
-      stateString: '',
+      stateString: 'Test',
     };
   }
 
@@ -35,7 +35,8 @@ export default class Test extends React.Component<TestProps, TestState> {
       <div>
         <div>{stateString}</div>
         <div>{propsString}</div>
-        <div>{propsObject}</div>
+        <div>{propsObject.infoString}</div>
+        <div>{propsObject.infoNumber}</div>
         <div>{propsNumber}</div>
       </div>
     )
